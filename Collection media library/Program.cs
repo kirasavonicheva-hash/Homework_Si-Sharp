@@ -6,9 +6,9 @@
         {
             List<MediaItem> collection = new List<MediaItem>
             {
-                new FeatureMovie(title: "Интерстеллар",year: 2014,rating: 10,director: "К.Нолан",genre: "Фантастика"),
-                new DocumentaryMovie(title: "Наша планета",year: 2019,rating: 10,investigator: "Д.Аттенборо",topic: "Природа"),
-                new AnimatedMovie(title: "Король Лев",year: 1994,rating: 9,studio: "Disney",animationType: "2D")
+                new FeatureMovie(title: "Лох",year: 2014,rating: 10,director: "К.Нолан",genre: "Фантастика"),
+                new DocumentaryMovie(title: "Даун",year: 2019,rating: 10,investigator: "Д.Аттенборо",topic: "Природа"),
+                new AnimatedMovie(title: "Кукумбер",year: 1994,rating: 9,studio: "Disney",animationType: "2D")
             };
             
             while (true)
