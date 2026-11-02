@@ -27,7 +27,7 @@ class Program
         }
         string report2 = sb.ToString();
         sw2.Stop();
-        Console.WriteLine("2. StringBuilder:       " + sw2.ElapsedMilliseconds + " мс");
+        Console.WriteLine("2. StringBuilder:" + sw2.ElapsedMilliseconds + " мс");
         
     }
 }
