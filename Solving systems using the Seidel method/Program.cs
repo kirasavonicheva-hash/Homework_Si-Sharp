@@ -32,8 +32,7 @@ class Program
         Console.WriteLine($"Ответ: ({res1[0]:F5}; {res1[1]:F5}; {res1[2]:F5}), шагов: {steps1}");
 
         Console.WriteLine("Задание.2: Сравнение базовых итераций и Зейделя (eps = 1e-6)");
-        Console.WriteLine($"{"Система",-58} {"Базовый",-8} {"Зейдель",-8}");
-        Console.WriteLine(new string('-', 80));
+        Console.WriteLine($"{"Система"} {"Базовый"} {"Зейдель"}");
         
         var (_, jSteps1) = Jacobi(A1, b1, eps);
         var (_, sSteps1) = Seidel(A1, b1, eps);
